@@ -1,0 +1,174 @@
+body {
+    background-color: #fff;
+}
+
+.navbar {
+    background-color: #ffffff;
+}
+
+.hamburger {
+    font-size: 24px;
+    color: #FF4B4B;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.search-container {
+    .btn {
+        background-color: #FF4B4B;
+        color: #ffffff;
+    }
+}
+
+.search {
+    background-color: #FFF0F0;
+}
+
+.menus {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.right-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.menu-item {
+    width: 50%;
+    padding-left: 5px;
+    flex: 0 0 50%;
+    margin-bottom: 5px;
+}
+
+.hero-card {
+    height: 150px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin: 25px;
+}
+
+.item-card {
+    border: none;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    height: 210px;
+    position: relative;
+
+    img {
+        width: 87px;
+        height: 70px;
+    }
+}
+
+.card-title {
+    text-align: left;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.card-text {
+    text-align: left;
+    font-size: 10px;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 8px;
+    gap: 5px;
+
+
+    .amount {
+        color: red;
+        font-weight: bold;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+    }
+
+    img {
+        height: 10px;
+        width: auto;
+    }
+}
+
+.quantities {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.category-btn {
+    width: 75px;
+    height: 75px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border: 1px solid red;
+    color: #000000;
+    border-radius: 50px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .text {
+        text-align: center;
+    }
+}
+
+.category-btn.active {
+    background-color: #FF0000;
+    color: #ffffff;
+    border: 1px solid #FF0000;
+}
+
+.btn-sub {
+    background: #FFF0F0;
+    color: #FF0000;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-add {
+    background: red;
+    color: white;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-bar {
+    background: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-radius: 0 0 15px 15px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container mt-3">
+        <a href="./index.html" class="back-btn">
+            <i class="fas fa-arrow-left"></i>
+        </a>
+    </div>
+
+    <!-- Order Details Section -->
+    <div class="container">
+        <h2 class="order-title">Order Details</h2>
+
+        <!-- Order Items -->
+        <div class="order-item">
+            <img src="./assets/burger-sm.png" alt="Chicken Burger">
+            <div class="item-details">
+                <h5>Chicken Burger</h5>
+                <p>Burger Factory LTD</p>
+                <span class="price">$ 20</span>
+            </div>
+            <div class="quantity-controls">
+                <button class="btn minus">-</button>
+                <span>1</span>
+                <button class="btn plus">+</button>
+            </div>
+        </div>
+
+        <div class="order-item">
+            <img src="./assets/food 1.png" alt="Onion Pizza">
+            <div class="item-details">
+                <h5>Onion Pizza</h5>
+                <p>Pizza Palace</p>
+                <span class="price">$ 15</span>
+            </div>
+            <div class="quantity-controls">
+                <button class="btn minus">-</button>
+                <span>1</span>
+                <button class="btn plus">+</button>
+            </div>
+        </div>
+
+        <div class="order-item">
+            <img src="./assets/burger-sm.png" alt="Spicy Shawarma">
+            <div class="item-details">
+                <h5>Spicy Shawarma</h5>
+                <p>Hot Cool Spot</p>
+                <span class="price">$ 15</span>
+            </div>
+            <div class="quantity-controls">
+                <button class="btn minus">-</button>
+                <span>1</span>
+                <button class="btn plus">+</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Order Summary -->
+    <div class="order-summary">
+        <p>Sub-Total <span>$100</span></p>
+        <p>Delivery Charge <span>$10</span></p>
+        <p>Discount <span>$10</span></p>
+        <p class="total">Total <span>$110</span></p>
+    </div>
+    <div class="bottom-bar">Place Order</div>
+
+</body>
+
+</html>

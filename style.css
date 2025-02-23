@@ -11,6 +11,54 @@ body {
     color: #FF4B4B;
 }
 
+.offcanvas {
+    height: 30vh;
+}
+
+.offcanvas-header {
+    .btn-close {
+        background-color: #FF4B4B;
+        opacity: 1;
+    }
+}
+
+.offcanvas-body {
+    .nav {
+        border: 1px solid gray;
+        border-radius: 8px;
+
+
+    }
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000000;
+    position: relative;
+    margin-right: 10px;
+
+}
+
+.count {
+    position: absolute;
+    top: -10px;
+    background-color: #7afa7a;
+    right: -12px;
+    width: 10px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: 700;
+}
+
+.offcanvas.offcanvas-start {
+    border: 0;
+}
+
 .container {
     margin-top: 20px;
 }
@@ -171,4 +219,111 @@ body {
     bottom: 0;
     width: 100%;
     border-radius: 0 0 15px 15px;
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+
+
+/* cart css */
+
+
+.back-btn {
+    background: #ff4d4d;
+    color: white;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.order-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.order-item {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.order-item img {
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.item-details {
+    flex-grow: 1;
+}
+
+.item-details h5 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.item-details p {
+    margin: 2px 0;
+    color: gray;
+    font-size: 12px;
+}
+
+.price {
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.quantity-controls .btn {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    font-size: 18px;
+    width: 20px;
+    height: 20px;
+    line-height: 30px;
+    padding: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-summary {
+    background: red;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-top: 45px;
+}
+
+.order-summary p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.order-summary .total {
+    font-weight: bold;
+    font-size: 18px;
 }
